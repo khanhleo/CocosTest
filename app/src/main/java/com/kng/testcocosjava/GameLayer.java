@@ -159,7 +159,7 @@ public class GameLayer extends CCColorLayer
 			if (++_projectilesDestroyed > 8)
 			{
 				_projectilesDestroyed = 0;
-				CCDirector.sharedDirector().replaceScene(GameOverLayer.scene("You Win!"));
+				CCDirector.sharedDirector().replaceScene(GameOverLayer.scene("You Win haha!"));
 			}
 		}
 	}
